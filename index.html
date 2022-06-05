@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="w3.css"/>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    h1,h2,h3,h4,h5,h6,p{
+      font-family: "Poppins", sans-serif;
+    }
+    #sList{
+      background: #EEF0FF;
+      border-radius: 5px;
+      padding: 5px 7px;
+      position: absolute;
+      margin-top: 2px;
+      z-index: 10;
+      display: none;
+      width: 100%
+    }
+    #sList > p{
+      margin: 5px 0;
+      font-size: 10pt;
+    }
+    #sList > p a{
+      color: #000;
+      text-decoration: none;
+    }
+    #sList > p a:hover{
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-dark bg-dark">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#"><img class="rounded-pill" src="logo.png" alt="Logo" width="50px"/></a>
+     <a class="navbar-text" href="#" style="font-size:17pt;text-decoration: none;">NOVEL DL</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuContent"><span class="navbar-toggler-icon"></span></button>
+     <div class="collapse navbar-collapse" id="menuContent">
+       <ul class="navbar-nav">
+         <li class="nav-item text-center"><a class="nav-link" href="#">Home</a></li>
+         <li class="nav-item text-center"><a class="nav-link" href="list.html">Novels List</a></li>
+         <li class="nav-item text-center" style="position:relative;"><input class="form-control" type="search" name="s" id="s" placeholder="Search Novel" onkeyup="myFunction()"/>
+           <div id="sList"></div>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+  
+  <div class="container-fluid main"><!-- Main Div -->
+     <h3 class="text-primary" style="margin: 7px 0;">Newest Post</h3>
+    <hr/>
+    <!-- Items Div -->
+    <div class="items container" style="border:1px solid lightgrey;border-radius: 5px;margin-bottom: 10px;padding: 0">
+      <img id="cover" width="100%" height="auto" src="https://cdn.novelupdates.com/images/2021/12/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg" style="border-radius: 5px;" alt="Cover" />
+      <div style="padding: 10px">
+        <p><i><b>Download How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?</b></i></p>
+        <button class="btn btn-success"><a href="series/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.html" style="cursor: none; outline: none;color:inherit;text-decoration: none;">DOWNLOAD NOW</a></button>
+      </div>
+    </div>
+    <div class="items container" style="border:1px solid lightgrey;border-radius: 5px;margin-bottom: 10px;padding: 0">
+      <img id="cover" width="100%" height="auto" src="https://cdn.novelupdates.com/images/2021/06/The-Neighboring-Aaryasan-who-Sometimes-Acts-Affectionate-and-Murmuring-in-Russian.jpeg" alt="Cover" style="border-radius: 5px;"/>
+      <div style="padding: 10px">
+        <p><i><b>Download The Neighboring Aarya-san who Sometimes Acts Affectionate and Murmuring in Russian</b></i></p>
+        <button class="btn btn-success mb-10"><a href="series/The-Neighboring-Aaryasan-who-Sometimes-Acts-Affectionate-and-Murmuring-in-Russian.html" style="cursor: none; outline: none;color:inherit;text-decoration: none;">DOWNLOAD NOW</a></button>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <style>footer > a {font-size: 10pt;display: inline-block;text-decoration: none;margin: 10px</style>
+  <footer class="footer container-fluid p-1">
+     <a href="">Report Issue</a>
+     <a href="">About Us</a>
+     <a href="#">® Alright Reserve 2022</a>
+     <a href="#">©Copyright 2022</a>
+  </footer>
+  <!-- Project -->
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+  var div = document.getElementById("sList");
+  for(var j in novel){
+    var p = document.createElement("p");
+    var sLink = document.createElement("a");
+    
+    sLink.setAttribute("href","");
+    
+    sLink.href = novel[j].sourceLink;
+    sLink.innerHTML = novel[j].title;
+    
+    p.appendChild(sLink);
+    div.appendChild(p);
+  }
+  
+  function myFunction() {
+    // Declare variables
+    var input, filter, div, p, a, i, txtValue;
+    input = document.getElementById('s');
+    filter = input.value.toUpperCase();
+    div = document.getElementById("sList");
+    p = div.getElementsByTagName('p');
+    
+    if(input.value != ""){
+      div.style.display = "block";
+    }else{
+      div.style.display = "none";
+    }
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < p.length; i++) {
+      a = p[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        p[i].style.display = "";
+      } else {
+        p[i].style.display = "none";
+      }
+    }
+  }
+</script>
+</body>
+</html>
