@@ -1,6 +1,10 @@
 var novel = [
   
   {
+    title: "Classroom of the Elite",
+    sourceLink: "series/classroom-of-the-elite.html"
+  },
+  {
     title: "Eromanga Sensei",
     sourceLink: "series/eromanga.html"
   },
