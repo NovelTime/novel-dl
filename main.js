@@ -1,5 +1,21 @@
 var novel = [
   
+ {
+    title: "Wandering Witch: The Journey of Elaina",
+    sourceLink: "series/Majo-No-Tabitabi-Light-Novel.html"
+  },
+  {
+    title: "Gimai Seikatsu",
+    sourceLink: "series/Gimai-Seikatsu-Light-Novel.html"
+  },
+  {
+    title: "Date This Super Cute Me!",
+    sourceLink: "series/Date-This-Super-Cute-Me.html"
+  },
+  {
+    title: "Bottom-Tier Character Tomozaki",
+    sourceLink: "series/Bottom-Tier-Character-Tomozaki-Light-Novel.html"
+  },
   {
     title: "Your Name",
     sourceLink: "series/kimi-no-nawa.html"
