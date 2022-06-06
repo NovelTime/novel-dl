@@ -1,6 +1,14 @@
 var novel = [
   
   {
+    title: "Who Decided That I Can’t Do Romantic Comedy in Reality?",
+    sourceLink: "series/genjitsu-de-love-comedy-dekinai-to-dare-ga-kimeta.html"
+  },
+  {
+    title: "Classroom of the Elite Year 2",
+    sourceLink: "series/classroom-of-the-elite-year2.html"
+  },
+  {
     title: "Classroom of the Elite",
     sourceLink: "series/classroom-of-the-elite.html"
   },
