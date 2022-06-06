@@ -1,6 +1,14 @@
 var novel = [
   
   {
+    title: "Your Name",
+    sourceLink: "series/kimi-no-nawa.html"
+  },
+  {
+    title: "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+    sourceLink: "series/worlds-finest-assassin.html"
+  },
+  {
     title: "Chitose Is In The Ramune Bottle",
     sourceLink: "series/chitose-kun-wa-ramune-bin-no-naka.html"
   },
