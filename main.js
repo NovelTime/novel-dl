@@ -1,6 +1,14 @@
 var novel = [
   
   {
+    title: "Chitose Is In The Ramune Bottle",
+    sourceLink: "series/chitose-kun-wa-ramune-bin-no-naka.html"
+  },
+  {
+    title: "Christmas Comes Not For Us",
+    sourceLink: "series/christmas-comes-not-for-us.html"
+  },
+  {
     title: "Who Decided That I Can’t Do Romantic Comedy in Reality?",
     sourceLink: "series/genjitsu-de-love-comedy-dekinai-to-dare-ga-kimeta.html"
   },
@@ -25,7 +33,7 @@ var novel = [
     sourceLink: "series/tensei-shittara-slime.html"
   },
   {
-    title: "After I Lectured an Unfriendly Girl Who Doesn\'t Let Strangers Approach her, She Really Took a Liking to Me",
+    title: "Tanin wo Yosetsukenai Buaisouna Joshi ni Sekkyou shitara, Mechakucha Natsukareta",
     sourceLink: "series/tanin-wo-yosetsukenai-buaisouna-joshi-ni-sekkyou-shitara-mechakucha-natsukareta.html"
   },
   {
