@@ -1,6 +1,14 @@
 var novel = [
   
  {
+    title: "The Detective Is Already Dead",
+    sourceLink: "series/tantei-wa-mou-shendirou.html"
+  },
+ {
+    title: "My Girlfriend Cheated on Me With a Senior, so I’m Cheating on Her With His Girlfriend",
+    sourceLink: "series/My-Girlfriend-Cheated-on-Me-With-a-Senior-so-Im-Cheating-on-Her-With-His-Girlfriend.html"
+  },
+ {
     title: "Wandering Witch: The Journey of Elaina",
     sourceLink: "series/Majo-No-Tabitabi-Light-Novel.html"
   },
