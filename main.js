@@ -1,6 +1,14 @@
 var novel = [
   
  {
+    title: "From Toxic Classmate to Girlfriend Goals",
+    sourceLink: "series/from-toxic-classmate-to-girlfriend-goals.html"
+  },
+ {
+    title: "I’m Gonna Live with You Not Because My Parents Left Me Their Debt But Because I Like You",
+    sourceLink: "series/Im-Gonna-Live-with-You-Not-Because-My-Parents-Left-Me-Their-Debt-But-Because-I-Like-You.html"
+  },
+ {
     title: "The Detective Is Already Dead",
     sourceLink: "series/tantei-wa-mou-shendirou.html"
   },
