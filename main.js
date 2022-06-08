@@ -1,6 +1,10 @@
 var novel = [
   
  {
+    title: "After Coincidentally Saving the New Transfer Student’s Little Sister, We Gradually Grew Closer",
+    sourceLink: "series/After-Coincidentally-Saving-the-New-Transfer-Students-Little-Sister-We-Gradually-Grew-Closer.html"
+  },
+ {
     title: "From Toxic Classmate to Girlfriend Goals",
     sourceLink: "series/from-toxic-classmate-to-girlfriend-goals.html"
   },
