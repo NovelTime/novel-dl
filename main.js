@@ -1,6 +1,10 @@
 var novel = [
   
  {
+    title: "Forget Being the Villainess, I Want to Be an Adventurer!",
+    sourceLink: "series/Forget-Being-the-Villainess-I-Want-to-Be-an-Advent.html"
+  },
+ {
     title: "After Coincidentally Saving the New Transfer Student’s Little Sister, We Gradually Grew Closer",
     sourceLink: "series/After-Coincidentally-Saving-the-New-Transfer-Students-Little-Sister-We-Gradually-Grew-Closer.html"
   },
