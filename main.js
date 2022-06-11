@@ -1,6 +1,10 @@
 var novel = [
   
  {
+    title: "The Beginning After The End",
+    sourceLink: "series/TBATE-Light-Novel.html"
+  },
+ {
     title: "Forget Being the Villainess, I Want to Be an Adventurer!",
     sourceLink: "series/Forget-Being-the-Villainess-I-Want-to-Be-an-Advent.html"
   },
