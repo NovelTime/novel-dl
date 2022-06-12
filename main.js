@@ -1,6 +1,10 @@
 var novel = [
   
  {
+    title: "Class no Daikirai na Joshi to Kekkon Suru Koto ni Natta",
+    sourceLink: "series/Kurasu-no-Daikiraina-Joshi-to-Kekkon-Suru-Koto-ni-Natta.html"
+  },
+ {
     title: "After a Heartbreak, My Bitter Childhood Friend is now Sweet Like Sugar",
     sourceLink: "series/after-a-heartbreak.html"
   },
