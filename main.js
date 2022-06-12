@@ -1,6 +1,18 @@
 var novel = [
   
  {
+    title: "It Turns Out That I Have a Fiancee, but She Is the Famous \"Villainess\" of the School. What Should I Do?",
+    sourceLink: "series/It-turns-out-that-I-have-a-fiancee-but-she-is-the-famous-villainess-of-the-school-What-should-I-do.html"
+  },
+ {
+    title: "My Wife is a Beautiful CEO",
+    sourceLink: "series/my-wife-is-a-beautiful-ceo.html"
+  },
+ {
+    title: "Prove Your Eternal Love. There Shall Be No Heroine Correction",
+    sourceLink: "series/Prove-Your-Eternal-Love-There-Shall-Be-No-Heroine-Correction.html"
+  },
+ {
     title: "Class no Daikirai na Joshi to Kekkon Suru Koto ni Natta",
     sourceLink: "series/Kurasu-no-Daikiraina-Joshi-to-Kekkon-Suru-Koto-ni-Natta.html"
   },
