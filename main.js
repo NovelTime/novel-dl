@@ -2,7 +2,7 @@ var novel = [
   
  {
     title: "After a Heartbreak, My Bitter Childhood Friend is now Sweet Like Sugar",
-    sourceLink: "series/TBATE-Light-Novel.html"
+    sourceLink: "series/after-a-heartbreak.html"
   },
  {
     title: "The Beginning After The End",
